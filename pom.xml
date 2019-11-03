@@ -61,7 +61,7 @@
 			<executions>
 				<execution>
 					<id>make-a-jar</id>
-					<phase>compile</phase>
+					
 					<goals>
 						<goal>jar</goal>
 					</goals>
