@@ -40,8 +40,9 @@
 				<executions>
 					<execution>
 						<phase>package</phase>
+						<id>default-war</id>
 						<goals>
-							<goal>shade</goal>
+							<goal>war</goal>
 						</goals>
 						<configuration>
 							<transformers>
